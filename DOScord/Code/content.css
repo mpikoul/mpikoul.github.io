@@ -648,7 +648,7 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 
 .sprite-2iCowe {
 	background-image: none;
-	background-color: var(--interactive-active);
+	background-color: var(--text-normal);
 	-webkit-mask-image: url("https://mpikoul.github.io/DOScord/assets/EmojiMask.png");
 	filter: none;
 	-webkit-mask-repeat: no-repeat;
