@@ -29,7 +29,7 @@ Special thanks to the following:
 /* Theme Variables */
   
 :root {
-     --background-floating: #010101; /* Tooltip background colour. */
+	 --background-floating: #010101; /* Tooltip background colour. */
      --background-modifier-selected: #0000; /* Tooltip border colour. */
 }
   
@@ -38,7 +38,7 @@ Special thanks to the following:
   --background-secondary: #0d0d0d; /* Your secondary background colour; should be darker than primary. */
   --background-secondary-alt: #1a1613; /* Your alternative secondary background colour; should be different but ultimately similar to secondary. */
   --background-tertiary: #000000; /* Your tertiary background colour; should be the darkest of the four background colours. */
-  --background-accent: #cccccc; /* Your main accent colour. */
+  --background-accent: #808080; /* Your main accent colour. */
   --scrollbar-auto-thumb: #e6e6e6; /* The colour of your wide scrollbar pill. */
   --scrollbar-auto-track: #0000; /* The colour of the scrollbar background. */
   --scrollbar-thin-thumb: #262626; /* The colour of your thin scrollbar pill. */
@@ -648,10 +648,6 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 	border-top: 8px solid var(--background-tertiary);
 }
 
-.jumpToPresentBar-G1R9s6 {
-	background-color: var(--interactive-muted);
-}
-
 /* Cool Easter Egg Snippet (Thanks Cedrick) */
 
 .info-1VyQPT:last-child > div:last-child::after {
@@ -694,10 +690,6 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 .container-3baos1 > .noWrap-3jynv6 button {
     width: 100%;
     justify-content: space-evenly;
-}
-
-.iconBadge-3qSJIw {
-    background-color: var(--interactive-muted);
 }
 
 .theme-dark .perksModal-fSYqOq {
