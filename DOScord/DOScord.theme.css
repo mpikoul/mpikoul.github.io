@@ -495,7 +495,7 @@ path[] {
 .thin-1ybCId::-webkit-scrollbar-thumb, .header-1TKi98, .backgroundImage-GBlENr, .sticker-2cpdZp, .newTag-38ErDv,
 .folderIconWrapper-1_bOZe, .wrapper-3WhCwL, .baseShapeRound-1Mm1YW, .spoilerText-3p6IlD, .spoilerWarning-2aAZq1,
 .attachment-33OFj0, .spoilerContainer-331r0R, .ctaBar-2UsjF2, .tierWrapper-W9ajqp, .tier-12tKuZ, .tierBody-16Chc9,
-.assetsLargeImage-eYwpTX, .assetsSmallImage-3_3Bzj { 
+.assetsLargeImage-eYwpTX, .assetsSmallImage-3_3Bzj, .toolbar-2bjZV7 { 
 	border-radius: 0 !important; 
 }
 
@@ -547,7 +547,7 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 	background-color: var(--background-secondary)
 }
 
-.theme-dark .root-1gCeng {
+.theme-dark .root-1gCeng, .toolbar-2bjZV7 {
 	background-color: var(--background-tertiary);
 }
 
@@ -642,6 +642,10 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 
 .assetsSmallImage-3_3Bzj  {
 	background-color: var(--background-tertiary);
+}
+
+.toolbar-2bjZV7:before {
+	border-top: 8px solid var(--background-tertiary);
 }
 
 /* Cool Easter Egg Snippet (Thanks Cedrick) */
