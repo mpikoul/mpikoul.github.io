@@ -29,7 +29,7 @@ Special thanks to the following:
 /* Theme Variables */
   
 :root {
-	 --background-floating: #010101; /* Tooltip background colour. */
+     --background-floating: #010101; /* Tooltip background colour. */
      --background-modifier-selected: #0000; /* Tooltip border colour. */
 }
   
@@ -99,7 +99,7 @@ Special thanks to the following:
 }
 
 .markup-2BOw-j code.inline, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y, code,
-.ace_editor {
+.codeBlockText-9TnoxQ, .codeLine-14BKbG, .ace_editor {
 	font-family: "IBM MDA";
 }
 
