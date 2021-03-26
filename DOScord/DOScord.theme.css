@@ -494,7 +494,8 @@ path[] {
 .stickerCategoryShopBadge-1_oCG0, .stickersUnseenBadge-3f2c9o, .contentWrapper-SvZHNd, .stickerCategory-3Yz7vN,
 .thin-1ybCId::-webkit-scrollbar-thumb, .header-1TKi98, .backgroundImage-GBlENr, .sticker-2cpdZp, .newTag-38ErDv,
 .folderIconWrapper-1_bOZe, .wrapper-3WhCwL, .baseShapeRound-1Mm1YW, .spoilerText-3p6IlD, .spoilerWarning-2aAZq1,
-.attachment-33OFj0, .spoilerContainer-331r0R, .ctaBar-2UsjF2, .tierWrapper-W9ajqp, .tier-12tKuZ, .tierBody-16Chc9 { 
+.attachment-33OFj0, .spoilerContainer-331r0R, .ctaBar-2UsjF2, .tierWrapper-W9ajqp, .tier-12tKuZ, .tierBody-16Chc9,
+.assetsLargeImage-eYwpTX, .assetsSmallImage-3_3Bzj { 
 	border-radius: 0 !important; 
 }
 
@@ -505,7 +506,8 @@ foreignObject[mask="url(#svg-mask-avatar-default)"], .pointerEvents-2zdfdO:not([
 foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"], 
 foreignObject[mask="url(#svg-mask-chat-input-button-notification)"], 
 foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
-.status-1XNdyw rect {
+.status-1XNdyw rect,
+.assetsLargeMaskStreamPreview-2V7xlA, .assetsLargeMaskUserPopout-12EBBc, .assetsLargeMaskVoiceChannel-2k1oGM {
 	mask: none !important; 
 	-webkit-mask: none !important;
 }
@@ -636,6 +638,10 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV {
 	background-color: var(--background-primary);
+}
+
+.assetsSmallImage-3_3Bzj  {
+	background-color: var(--background-tertiary);
 }
 
 /* Cool Easter Egg Snippet (Thanks Cedrick) */
