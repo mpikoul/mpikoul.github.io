@@ -648,6 +648,10 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 	border-top: 8px solid var(--background-tertiary);
 }
 
+.jumpToPresentBar-G1R9s6 {
+	background-color: var(--interactive-muted);
+}
+
 /* Cool Easter Egg Snippet (Thanks Cedrick) */
 
 .info-1VyQPT:last-child > div:last-child::after {
