@@ -438,9 +438,9 @@ path[] {
 .attachment-33OFj0, .spoilerContainer-331r0R, .ctaBar-2UsjF2, .tierWrapper-W9ajqp, .tier-12tKuZ, .tierBody-16Chc9,
 .assetsLargeImage-eYwpTX, .assetsSmallImage-3_3Bzj, .toolbar-2bjZV7, .avatar-3tNQiO, .iconBadge-qZ4Ksk,.embedMedia-1guQoW,
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6, .wrapper-2siovq, .button-2CgfFz, .card-FDVird:before,
-.container-1nZlH6, .css-gvi9bl-control, .css-6fzn47-control, .css-3vaxre-menu { 
+.container-1nZlH6, .css-gvi9bl-control, .css-6fzn47-control, .css-3vaxre-menu, .quickswitcher-3JagVE, .input-2VB9rf { 
 	border-radius: 0 !important; 
-}
+} 
 
 .mask-1l8v16 foreignObject, .wrapper-25eVIn foreignObject, .avatar-VxgULZ, .avatar-VxgULZ:before, .avatarHintInner-Dco91E,
 foreignObject[mask="url(#svg-mask-channel-call-control-button)"], foreignObject[mask="url(#svg-mask-avatar-voice-call-80)"],
@@ -646,6 +646,10 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 
 .theme-dark .ctaBar-2UsjF2 {
 	background-image: none;
+}
+
+.hoverRoll-YK53gQ {
+	max-width: 187px;
 }
 
 /* Weird Emoji Stuff */
