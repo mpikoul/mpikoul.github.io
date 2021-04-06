@@ -442,10 +442,10 @@ path[] {
 .attachment-33OFj0, .spoilerContainer-331r0R, .ctaBar-2UsjF2, .tierWrapper-W9ajqp, .tier-12tKuZ, .tierBody-16Chc9,
 .assetsLargeImage-eYwpTX, .assetsSmallImage-3_3Bzj, .toolbar-2bjZV7, .avatar-3tNQiO, .iconBadge-qZ4Ksk,.embedMedia-1guQoW,
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6, .wrapper-2siovq, .button-2CgfFz, .card-FDVird:before,
-.container-1nZlH6, .css-gvi9bl-control, .css-6fzn47-control, .css-3vaxre-menu, .quickswitcher-3JagVE, .input-2VB9rf, 
-.resultFocused-3aIoYe, .expandedFolderBackground-1cujaW  { 
+.container-1nZlH6, .css-gvi9bl-control, .css-6fzn47-control, .css-3vaxre-menu, .quickswitcher-3JagVE, .input-2VB9rf,
+.resultFocused-3aIoYe, .expandedFolderBackground-1cujaW, .contentWrapper-3WC1ID:only-child, .pill-1dHPfk { 
 	border-radius: 0 !important; 
-} 
+}
 
 .mask-1l8v16 foreignObject, .wrapper-25eVIn foreignObject, .avatar-VxgULZ, .avatar-VxgULZ:before, .avatarHintInner-Dco91E,
 foreignObject[mask="url(#svg-mask-channel-call-control-button)"], foreignObject[mask="url(#svg-mask-avatar-voice-call-80)"],
@@ -524,7 +524,7 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 	fill: var(--background-accent);
 }
 
-.theme-dark .keyboardShortcutsModal-3piNz7 {
+.theme-dark .keyboardShortcutsModal-3piNz7, .theme-dark .contentWrapper-3WC1ID {
 	background-color: var(--background-primary);
 }
 
@@ -607,7 +607,7 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 /* Cool Easter Egg Snippet (Thanks Cedrick) */
 
 .info-1VyQPT:last-child > div:last-child::after {
-  content: "Better to Take the W than Give the L";
+  content: "Maybe I should have called this DisCommodore?";
   display: block;
 }
 
@@ -665,7 +665,7 @@ foreignObject[mask="url(#svg-mask-sticker-shop-notification)"],
 
 .sprite-2iCowe {
 	background-image: none;
-	background-color: var(--text-normal);
+	background-color: var(--text-normal	);
 	-webkit-mask-image: url("https://mpikoul.github.io/DOScord/assets/EmojiMask.png");
 	filter: none;
 	-webkit-mask-repeat: no-repeat;
